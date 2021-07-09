@@ -113,22 +113,6 @@ span {
 
 }
 
-.sp2 {
-
-    animation-name: span2;
-    animation-timing-function: linear;
-    animation-duration: 2s;
-
-}
-
-.sp3 {
-
-    animation-name: span3;
-    animation-timing-function: linear;
-    animation-duration: 2s;
-
-}
-
 
 .sp4 {
     animation-name: span2;
@@ -206,12 +190,13 @@ h1,h2 {
 }
 
 h2 {
-    background-color: rgb(241, 241, 46);
+    background-color: rgba(0, 0, 0, 0.466);
     width: 20%;
     padding: 1px;
     margin: 0.5rem auto;
     border-radius: 10px;
     cursor: pointer;
+    color: yellow;
 }
 .header-btn {
     background-color: transparent;
@@ -328,7 +313,7 @@ hr {
 }
 
 .dimg2 {
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
 }
@@ -347,6 +332,10 @@ hr {
     border-radius: 5px;
 }
 
+@-moz-keyframes im {
+    from { left: 98%;}
+    to   {left: -184%;}
+}
 
 @keyframes im {
     from { left: 98%;}
@@ -361,10 +350,13 @@ hr {
     max-width: 300px;
     margin: 0.2rem;
     border-radius: 8px;
+    -moz-animation-name: im;
     animation-name: im;
     -moz-animation-timing-function: linear;
     animation-timing-function: linear;
+    -moz-animation-duration: 10s;
     animation-duration: 10s;
+    -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     
 }
@@ -524,6 +516,7 @@ h3 {
 .section6 {
     background-color: rgb(44, 41, 41);
     border-radius: 5px;
+    margin-left: -2px;
 }
 
 .section6-heading1 {
@@ -678,6 +671,7 @@ li {
     background-color: rgb(44, 41, 41);
     margin-bottom: -2rem;
     padding-bottom: 1rem;
+    margin-left: -2px;
 }
 
 .footer-icons {
@@ -736,7 +730,7 @@ li {
     span {
         color: rgb(16, 212, 91);
         color: black;
-        padding: 2px;
+        padding: 0px;
         font-size: 7vw;
         position: relative;
     
@@ -1024,6 +1018,7 @@ li {
     }
 
     .dimg2 {
+        float: left;
         margin-left: 0px;
     }
 
@@ -1152,7 +1147,7 @@ li {
     
     
     .delete-btn {
-        height: 4vh;
+        height: 5vh;
         width: 11%;
         font-size: 0.85rem;
     }
