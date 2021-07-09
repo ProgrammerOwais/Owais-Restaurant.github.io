@@ -517,6 +517,7 @@ h3 {
     background-color: rgb(44, 41, 41);
     border-radius: 5px;
     margin-left: -2px;
+    margin-right: -5px;
 }
 
 .section6-heading1 {
@@ -672,6 +673,7 @@ li {
     margin-bottom: -2rem;
     padding-bottom: 1rem;
     margin-left: -2px;
+    margin-right: -5px;
 }
 
 .footer-icons {
