@@ -1,0 +1,1737 @@
+::after , ::before , * , html {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color:rgba(162, 190, 179, 0.561);
+    overflow-x: hidden;
+}
+
+/* Intro container  ***/
+.intro-container {
+   display: block;
+}
+.div1 {
+    width: 80%;
+    margin: 12rem auto;
+    text-align: center;
+}
+
+.div2 {
+    font-family: Racing Sans One;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 0.5rem;
+}
+
+@keyframes span1 {
+    from {
+        position: relative;
+        left: -60%;
+    }
+
+    to {
+        left: 0%;
+    }
+    
+}
+
+@keyframes span2 {
+    from {
+        position: relative;
+        top: -60vh;
+        left: -200px;
+    }
+
+    to {
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+@keyframes span3 {
+    from {
+        position: relative;
+        bottom: -60vh;
+        right: -200px;
+    }
+
+    to {
+        bottom: 0;
+        right: 0;
+    }
+    
+}
+
+
+@keyframes span4 {
+    from {
+        right: -500%;
+    }
+
+    to {
+        right: 0;
+    }
+    
+}
+
+@keyframes span5 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+    
+}
+
+span {
+    color: rgb(16, 212, 91);
+    padding: 2px;
+    font-size: 7vw;
+    position: relative;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767) ,
+                 4px 4px 5px rgba(16, 212, 91, 0.753),
+                 6px 6px 5px  gray;
+
+}
+
+.sp1 {
+
+    animation-name: span1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+
+}
+
+.sp2 {
+
+    animation-name: span2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+
+}
+
+.sp3 {
+
+    animation-name: span3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+
+}
+
+
+.sp4 {
+    animation-name: span2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+
+.sp5 {
+    animation-name: span3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+
+.sp6 {
+    animation-name: span2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+.sp7 {
+    animation-name: span3;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+.sp8 {
+    animation-name: span2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+.sp9 {
+    animation-name: span4;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+
+.sp91 , .sp10 , .sp11 , .sp12 , .sp13 , .sp14 , .sp15 , .sp16 , .sp17, .sp18 , .sp19 , .sp20 , .sp21,
+.sp22, .sp23 {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* intro container ended  ***/
+
+/* Basic resturant container  ***/
+
+.container {
+    display: none;
+}
+
+img {
+    box-shadow:2px 2px 5px rgba(136, 153, 146, 0.561);
+}
+
+
+/* header section ***/
+
+header {
+    /* background-image: linear-gradient(to right ,rgb(185, 171, 171),rgb(39, 33, 33),rgb(190, 179, 179)); */
+    background-image: linear-gradient(to right , rgb(182, 217, 245) 1%,rgb(69, 141, 235),rgb(177, 210, 236) 99%);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 5px rgba(73, 69, 69, 0.582);
+}
+
+
+h1,h2 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    background-color: rgb(241, 241, 46);
+    width: 20%;
+    padding: 1px;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header-btn {
+    background-color: transparent;
+}
+.header-heading2 {
+    font-family: Julius Sans One , sans-serif;
+}
+.online-close-btn {
+    background-color: transparent;
+    font-size: 0.7rem;
+    font-weight: bold;
+    position: absolute;
+    right: 3%;
+    top: 5px;
+    cursor: pointer;
+    border: none;
+}
+.online-close-btn:focus,.online-close-btn:hover {
+    border-bottom: 1px solid black;
+}
+
+.online-form {
+    position: relative;
+    display: none;
+    opacity: 0;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: rgb(81, 137, 241);
+    transition: opacity 2s;
+}
+
+ .online-form-heading , .online-selection , .online-form-input , .submit {
+    margin:0.5rem;
+}
+
+.online-form-heading {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.online-form-input , .submit{
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.online-selection {
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.online-form-option {
+    font-size: 1.2rem;
+}
+
+/* Main section ***/
+div {
+    margin-bottom: 0.5rem;
+    padding: 1px 2px;
+}
+.main-img1 {
+    width: 100%;
+    max-width: 1400px;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(199, 188, 188, 0.568);
+}
+
+/* Dessert section ****/
+
+.main-heading {
+    text-align: left;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.main-heading2 {
+    display: inline-block;
+    padding-left: 0px;
+    position: relative;
+    left: 50%;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+.dessert {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dessert-para {
+    width: 55%;
+    font-family: El Messiri,sans-serif;
+    font-size: 1.3rem;
+    padding-left: 8px;
+    word-spacing: 5px;
+}
+
+.dessert-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    float: right;
+    margin: 0 1rem;
+    border: 3px solid purple;
+    
+}
+
+.dimg2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* third Marque Section ****/
+
+.section3 {
+    overflow-x: hidden;
+    margin: 0 0.2rem;
+    padding: 25px 5px;
+    display: flex;
+    overflow-x: hidden;
+    background-color: coral;
+    border-top: 1px solid rgb(226, 111, 69);
+    border-radius: 5px;
+}
+
+
+@keyframes im {
+    from { left: 98%;}
+    to   {left: -184%;}
+    
+}
+
+.section3-img {
+    position: relative;
+    left: 98%;
+    width: 100%;
+    max-width: 300px;
+    margin: 0.2rem;
+    border-radius: 8px;
+    animation-name: im;
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+.section4-heading , .main-heading {
+    font-family: cursive, sans-serif;
+}
+.section4-heading ,.section5-heading {
+    color: black;
+}
+
+.section4{
+    padding: 5px;
+    margin: 0.1rem 0.01rem;
+}
+
+.section4-img {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0.1rem 0;
+    border-radius: 5px;
+}
+
+
+
+/* Section5 ****/
+
+h3 {
+    padding: 8px;
+}
+
+.section5-img {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0.1rem 0;
+    border-radius: 5px;
+}
+
+/* booking btn with text ***/
+.booking {
+    margin: 1rem 0.1rem;
+    padding: 5px;
+    background-color: rgb(68, 65, 65);
+    border-radius: 4px;
+}
+
+.booking-btn ,.booking-text {
+    font-size: 1.2rem;
+    
+
+}
+
+.booking-btn {
+    margin: 0.1rem 0.2rem;
+    margin-left: 0rem;
+    padding: 3px;
+    background-color: rgb(29, 26, 26);
+    color: rgb(240, 240, 61);
+    border-radius: 5px;
+    outline: none;
+}
+
+.booking-btn:focus {
+    cursor: pointer;
+    box-shadow: 1px 3px 8px rgb(14, 11, 11);
+
+}
+
+
+.booking-text {
+    margin: 0.1rem 0.2rem;
+    margin-left: 0;
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: none;
+}
+/* section5 form ***/
+
+.section5-form {
+    display: none;
+   
+}
+
+@keyframes form-animation {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+    
+}
+
+
+.section5-form2 {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 20%;
+    margin: 0.1rem auto;
+    padding-right: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    animation-name: form-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+   
+    
+}
+
+
+
+.form-heading {
+    font-size: 1.5rem;
+    background-color: yellow;
+    color: rgb(44, 41, 41);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 0.5rem;
+    text-align: center;
+    width: 96%;
+    outline: none;
+}
+
+.booking-selection {
+    padding: 5px;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.options {
+    font-size: 0.9rem;
+    padding: 1px;
+    margin: 1px;
+}
+.inputs {
+    font-size: 0.8rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: 98%;
+
+}
+
+.submit1 {
+    font-size: 1.5rem;
+    background-color: yellow;
+    color: rgb(44, 41, 41);
+    border-radius: 10px;
+    margin: 0.5rem;
+    width: 98%;
+    outline: none;
+    
+}
+
+
+
+/* Section 6 ***/
+
+.section6 {
+    background-color: rgb(44, 41, 41);
+    border-radius: 5px;
+}
+
+.section6-heading1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.section6-heading2 {
+    font-size: 1.1rem;
+    color: greenyellow;
+    background-color: transparent;
+    text-align: left;
+    padding: 5px;
+    margin: 0.1rem;
+    margin-bottom: -10px;
+    width: auto;
+}
+
+.section6-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section6-para {
+    color: white;
+    width: 45%;
+    padding: 5px;
+    padding-top: 0;
+    margin: 0.1rem;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+
+}
+
+.section6-span1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 550;
+    text-shadow: none;
+}
+
+.section6-form-heading,.section6-heading1,.section6-heading2 {
+    letter-spacing: 1px;
+}
+
+.section6-form {
+    width: 70%;
+    padding: 5px;
+    margin: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.form-input {
+    width: 50%;
+    padding: 5px;
+    margin: 0.3rem auto;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.input7 {
+    width: 50%;
+    padding: 5px;
+    margin: 0.3rem auto;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.section6-form-heading {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.list {
+    display: none;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0.1rem;
+    background-color: white;
+    border: 1px solid greenyellow;
+    color: rgb(44, 41, 41);
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.list-item {
+    overflow-x: hidden;
+    color: black;
+    width: 13%;
+    padding: 2px;
+    margin: 0.1rem;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    
+}
+
+.list-item7 {
+    width: 11%;
+    font-size: 1.2rem;
+    color: black;
+    padding: 2px;
+    margin: 0.1rem;
+    margin-top: 0.2rem;
+    text-transform: capitalize;
+
+}
+
+li {
+    overflow-x:auto;
+    width: 13%;
+    padding: 2px;
+    margin: 0.1rem;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+
+
+.delete-btn {
+    height: 5vh;
+    width: 11%;
+    font-size: 1rem;
+    color: black;
+    padding: 2px;
+    margin: 0.1rem;
+    margin-top: 0.2rem;
+    text-transform: capitalize;
+
+}
+
+
+/*  footer section ***/
+
+.footer{
+    background-color: rgb(44, 41, 41);
+    margin-bottom: -2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icons {
+    box-shadow: none;
+    padding-left: 1rem;
+    max-width: 20px;
+    padding-top: 0.5rem;
+}
+
+.footer-para {
+    color: wheat;
+    font-size: 1.3rem;
+    word-spacing: 1rem;
+    margin: 0.1rem 0.1rem;
+}
+
+.footer-link {
+    margin: 0.5rem 0.1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-decoration: none;
+    
+}
+.links{
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.links:hover {
+    color: rgba(101, 101, 179, 0.815);
+}
+
+.link-item1:first-of-type {
+    color: white !important ;
+}
+
+
+/*Meduia quires  
+**************
+
+
+***************/
+
+@media (min-width: 320px) { 
+
+    span {
+        color: rgb(16, 212, 91);
+        color: black;
+        padding: 2px;
+        font-size: 7vw;
+        position: relative;
+    
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.767) ,
+                     1px 1px 3px rgba(16, 212, 91, 0.753),
+                     1px 1px 3px  gray;
+    
+    }
+
+
+    /* header part ***/
+
+    h1,h2 {
+      font-size: 1.1rem;
+    }
+    h1 {
+        padding-top: 0.2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+
+    .online-form {
+        width: 50%;
+        margin: 0 auto;
+        flex-direction: column;
+        border: 2px solid rgba(255, 255, 255, 0.466);
+        border-radius: 10px;
+    }
+    
+     .online-form-heading , .online-selection , .online-form-input , .submit {
+        margin:0.2rem;
+    }
+    
+    .online-form-heading {
+        font-size: 0.7rem;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    
+    .online-form-input , .submit , .online-selection , .online-form-option{
+        font-size: 0.6rem;
+        padding: 3px;
+        border-radius: 10px;
+    }
+    
+    /* section2  dessert part ****/
+
+    .dessert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+   .main-heading {
+       text-align: center;
+   } 
+   
+   .main-heading2 {
+       left: 30%;
+   }
+
+    .dessert-para {
+        width: 100%;
+        font-size: 1rem;
+        padding-left: 3px;
+        word-spacing: 2.5px;
+
+    }
+
+    .dessert-img {
+        width: 99%;
+        max-width: 480px;
+        margin: 0 0.1rem;
+        border: 2px solid purple;
+        
+    }
+    .dimg2 {
+        width: 99%;
+        margin: 0 0.1rem;
+        border: 2px solid purple;
+    }
+    
+
+    /* section 3 ***/
+
+    .section3 {
+        padding: 4px;
+    }
+    .section3-img {
+        max-width: 150px;
+        box-shadow: none;
+    }
+    
+    .booking-btn {
+        font-size: 0.8rem;
+    }
+
+    .booking-text {
+        font-size: 0.9rem;
+    }
+
+    /* section 5 ****/
+
+    .section5-heading{    
+        font-size: 1.1rem;
+    
+    }
+    
+    .section5-heading2{
+    
+        font-size: 0.85rem;
+    
+    }
+
+    .section5-form2 {
+        width: 60%;
+    }
+
+    .form-heading {
+        font-size: 1.1rem;
+        border-radius: 5px;
+    }
+
+    .booking-selection {
+        font-size: 0.9rem;
+        border-radius: 5px;
+    }
+    .submit1 {
+        font-size: 1.1rem;
+        border-radius: 5px;
+    }
+
+
+    /* section 6 ***/
+
+    .section6-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section6-para {
+        width: 100%;
+        padding: 3px;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    
+    }
+    
+    .section6-form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid greenyellow;
+        border-radius: 5px;
+    }
+    
+    .form-input {
+        width: 80%;
+        border: 2px solid greenyellow;
+    }
+    
+    .input7 {
+        width: 80%;
+        padding: 5px;
+        margin: 0.3rem auto;
+        border-radius: 5px;
+        outline: none
+    
+    }
+
+    .form-input:focus{
+        border: 2px solid rgb(195, 92, 109);
+    }
+    
+    .section6-form-heading {
+        font-size: 1.1rem;
+    }
+    
+    .list {
+        min-height: 50px;
+    }
+    .list-item {
+        width: 11%;
+        font-size: 0.56rem;
+        font-weight: 550;
+    }
+    
+    .list-item7 {
+        font-size: 0.56rem;
+        padding: 1px;
+    
+    }
+    
+    li {
+        width: 11.5%;
+        padding: 1px;
+        margin: 0.1rem;
+        font-size: 0.6rem;
+        
+    }
+    
+    
+    .delete-btn {
+        height: 3vh;
+        font-size: 0.56rem;
+    }
+
+
+    /* footer part ***/
+    
+    .footer-para {
+        font-size: 0.9rem;
+        word-spacing: 0.9rem;
+    }
+    .link-item {
+        font-size: 0.95rem;
+    }
+    .links {
+        font-size: 0.8rem;
+}
+    
+}
+
+/* Responsive design width btw 500 ___ 720px ***/
+
+
+@media (min-width: 500px) { 
+
+
+    /* header part ***/
+
+    h1,h2 {
+      font-size: 1.15rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .online-form {
+        width: 50%;
+    }
+    
+     .online-form-heading , .online-selection , .online-form-input , .submit {
+        margin:0.35rem;
+    }
+    
+    .online-form-heading {
+        font-size: 1rem;
+    }
+    
+    .online-form-input , .submit , .online-selection , .online-form-option{
+        font-size: 0.8rem;
+        padding: 3.5px;
+    }
+
+    /* section2  dessert part ****/
+
+    .dessert {
+    display: block;
+}
+    
+    .main-heading {
+        margin-bottom: 0.2rem;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .main-heading2 {
+        margin-bottom: 0.2rem;
+        left: 62%;
+    }
+    .dessert-para {
+        font-size: 1.08rem;
+        padding-left: 3.5px;
+        word-spacing: 2.7px;
+
+    }
+    .dessert-img {
+        max-width: 300px;
+        margin: 0.5rem;
+        padding: 0;
+    }
+
+    .dimg2 {
+        margin-left: 0px;
+    }
+
+    
+
+    /* section 3 ***/
+
+    .section3 {
+        padding: 4.5px;
+    }
+    .section3-img {
+        max-width: 180px;
+    }
+    
+    .booking-btn {
+        font-size: 0.9rem;
+    }
+
+    .booking-text {
+        font-size: 1rem;
+    }
+    .inputs {
+        font-size: 1rem;
+    
+    }
+
+    /* section 5 ****/
+
+    .section5-heading{    
+        font-size: 1.15rem;
+
+    }
+
+    .section5-heading2{
+
+        font-size: 0.9rem;
+
+}
+
+    .section5-form2 {
+        width: 50%;
+    }
+
+    .form-heading {
+        font-size: 1.15rem;
+        border-radius: 7px;
+    }
+
+    .booking-selection {
+        font-size: 1rem;
+        border-radius: 7px;
+    }
+    .submit1 {
+        font-size: 1.15rem;
+        border-radius: 7px;
+    }
+
+
+    /* section 6 ***/
+    .section6-heading1{
+        font-size:1.6rem ;
+
+    }
+    .section6-heading2 {
+        font-size: 1.25rem;
+
+    }
+
+    .section6-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section6-para {
+        width: 100%;
+        padding: 3px;
+        font-size: 1rem;
+        line-height: 1.8rem;
+    
+    }
+    .section6-span1 {
+        font-size: 1rem;
+    }
+    
+    .section6-form {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid greenyellow;
+        border-radius: 7px;
+    }
+    
+    .input7 {
+        padding: 5.5px;
+        margin: 0.3rem auto;
+        border-radius: 7px;
+        outline: none
+    
+    }
+    
+    .section6-form-heading {
+        font-size: 1.15rem;
+    }
+    .list-item {
+        width: 12%;
+        font-size: 0.85rem;
+        font-weight: 550;
+    }
+    
+    .list-item7 {
+        width: 11%;
+        font-size: 0.85rem;
+        padding: 1px;
+    
+    }
+    
+    li {
+        width: 12.3%;
+        padding: 1px;
+        margin: 0.1rem;
+        font-size: 0.85rem;
+        
+    }
+    
+    
+    .delete-btn {
+        height: 4vh;
+        width: 11%;
+        font-size: 0.85rem;
+    }
+
+
+    /* footer part ***/
+    
+    .footer-para {
+        font-size: 1rem;
+        word-spacing: 1rem;
+    }
+    
+    .link-item {
+        font-size: 1rem;
+    }
+    .links {
+        font-size: 0.9rem;
+}
+    
+}
+
+
+
+/* Responsive design width btw 720____900px ***/
+
+@media (min-width: 720px) { 
+
+
+    /* header part ***/
+
+    h1,h2 {
+      font-size: 1.2rem;
+    }
+
+    .online-form {
+        width: 50%;
+    }
+    
+     .online-form-heading , .online-selection , .online-form-input , .submit {
+        margin:0.4rem;
+    }
+    
+    .online-form-heading {
+        font-size: 1.2rem;
+    }
+    
+    .online-form-input , .submit , .online-selection , .online-form-option{
+        font-size: 0.9rem;
+        padding: 4px;
+    }
+    
+    /* section2  dessert part ****/
+    
+    .main-heading {
+        padding-left: 2px;
+    }
+
+    .main-heading2 {
+        left: 62%;
+    }
+    .dessert-para {
+        font-size: 1.15rem;
+        padding-left: 4px;
+        word-spacing: 3px;
+
+    }
+    .dessert-img {
+        max-width: 400px;
+        margin: 0.5rem;
+        padding: 0;
+    }
+
+    
+
+    /* section 3 ***/
+
+    .section3 {
+        padding: 5px;
+    }
+    .section3-img {
+        max-width: 220px;
+    }
+    
+    .booking-btn {
+        font-size: 1.2rem;
+    }
+
+    .booking-text {
+        font-size: 1.1rem;
+    }
+    .inputs {
+        font-size: 1.1rem;
+    
+    }
+
+    /* section 5 ****/
+
+    .section5-heading {
+
+        font-size: 1.2rem;
+
+    }
+
+    .section5-heading2{
+
+        font-size: 1rem;
+
+    }
+    .section5-form2 {
+        width: 30%;
+    }
+
+    .form-heading {
+        font-size: 1.25rem;
+        border-radius: 10px;
+    }
+
+    .booking-selection {
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+    .submit1 {
+        font-size: 1.25rem;
+        border-radius: 10px;
+    }
+
+
+    /* section 6 ***/
+    .section6-heading1{
+        font-size:1.6rem ;
+
+    }
+    .section6-heading2 {
+        font-size: 1.3rem;
+
+    }
+
+    .section6-info {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .section6-para {
+        width: 46%;
+        padding: 4px;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    
+    }
+    .section6-span1 {
+        font-size: 1.05rem;
+    }
+    
+    .section6-form {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .input7 {
+        padding: 5.5px;
+        margin: 0.3rem auto;
+        border-radius: 10px;
+        outline: none
+    
+    }
+    
+    .section6-form-heading {
+        font-size: 1.25rem;
+    }
+    .list-item {
+        width: 12%;
+        font-size: 0.95rem;
+        font-weight: 550;
+    }
+    
+    .list-item7 {
+        font-size: 0.95rem;
+        padding: 1px;
+    
+    }
+    
+    li {
+        width: 12.3%;
+        padding: 1px;
+        margin: 0.1rem;
+        font-size: 0.95rem;
+        
+    }
+    
+    
+    .delete-btn {
+        height: 5vh;
+        width: 11%;
+        font-size: 0.95rem;
+    }
+
+
+    /* footer part ***/
+    
+    .footer-para {
+        font-size: 1.1rem;
+        word-spacing: 1.1rem;
+    }
+    
+    .link-item {
+        font-size: 1.1rem;
+    }
+    .links {
+        font-size: 1rem;
+}
+    
+}
+
+/* Responsive design width btw 901____1199px ***/
+
+@media (min-width: 900px) { 
+
+
+    span {
+        color: rgb(16, 212, 91);
+        padding: 2px;
+        font-size: 7vw;
+        position: relative;
+    
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.767) ,
+                     4px 4px 5px rgba(16, 212, 91, 0.753),
+                     6px 6px 5px  gray;
+    
+    }
+    /* header part ***/
+
+    h1,h2 {
+      font-size: 1.4rem;
+    }
+    .online-form {
+        width: 40%;
+    }
+    
+.online-close-btn {
+    font-size: 1.3rem;
+}
+.online-close-btn:focus,.online-close-btn:hover {
+    font-size: 1.4rem;
+}
+    
+     .online-form-heading , .online-selection , .online-form-input , .submit {
+        margin:0.45rem;
+    }
+    
+    .online-form-heading {
+        font-size: 1.4rem;
+    }
+    
+    .online-form-input , .submit , .online-selection , .online-form-option{
+        font-size: 1rem;
+        padding: 4.5px;
+    }
+    
+    /* section2  dessert part ****/
+    
+    .main-heading {
+        padding-left: 3px;
+    }
+
+    .main-heading2 {
+        left: 62%;
+    }
+    .dessert-para {
+        font-size: 1.25rem;
+        padding-left: 4px;
+        word-spacing: 4px;
+
+    }
+    .dessert-img {
+        max-width: 430px;
+        margin: 0.5rem;
+        padding: 0;
+    }
+
+    
+
+    /* section 3 ***/
+
+    .section3 {
+        padding: 5px;
+    }
+    .section3-img {
+        max-width: 250px;
+    }
+    
+    .booking-btn {
+        font-size: 1.3rem;
+    }
+
+    .booking-text {
+        font-size: 1.2rem;
+    }
+    .inputs {
+        font-size: 1.3rem;
+    
+    }
+
+    /* section 5 ****/
+
+    .section5-heading {
+
+        font-size: 1.4rem;
+
+    }
+
+    .section5-heading2{
+
+        font-size: 1.2rem;
+
+    }
+
+    .form-heading {
+        font-size: 1.35rem;
+        border-radius: 10px;
+    }
+
+    .booking-selection {
+        font-size: 1.2rem;
+    }
+    .submit1 {
+        font-size: 1.35rem;
+    }
+
+
+    /* section 6 ***/
+    .section6-heading1{
+        font-size:1.7rem ;
+
+    }
+    .section6-heading2 {
+        font-size: 1.3rem;
+
+    }
+
+
+    .section6-para {
+        width: 46%;
+        padding: 4px;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    
+    }
+    .section6-span1 {
+        font-size: 1.2rem;
+    }
+    
+    .input7 {
+        padding: 6px;
+        margin: 0.3rem auto;
+        border-radius: 10px;
+        outline: none
+    
+    }
+    
+    .section6-form-heading {
+        font-size: 1.35rem;
+    }
+    .list-item {
+        width: 13%;
+        font-size: 1rem;
+    }
+    
+    .list-item7 {
+        font-size: 1rem;
+        padding: 2px;
+    
+    }
+    
+    li {
+        width: 13%;
+        padding: 2px;
+        font-size: 1rem;
+        
+    }
+    
+    
+    .delete-btn {
+        font-size: 1rem;
+    }
+
+
+    /* footer part ***/
+    
+    .footer-para {
+        font-size: 1.2rem;
+        word-spacing: 1.2rem;
+    }
+    
+    .link-item {
+        font-size: 1.2rem;
+    }
+    .links {
+        font-size: 1.05rem;
+}
+    
+}
+
+/* Responsive width desing greater than >= 1200px ***/
+ 
+@media (min-width: 1200px) { 
+
+
+    /* header part ***/
+
+    h1,h2 {
+      font-size: 1.6rem;
+    }
+    
+.online-close-btn {
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+.online-close-btn:focus,.online-close-btn:hover {
+    font-size: 1.6rem;
+}
+    .online-form {
+        width: 40%;
+    }
+    
+     .online-form-heading , .online-selection , .online-form-input , .submit {
+        margin:0.5rem;
+    }
+    
+    .online-form-heading {
+        font-size: 1.6rem;
+    }
+    
+    .online-form-input , .submit , .online-selection , .online-form-option{
+        font-size: 1.05rem;
+        padding: 5px;
+    }
+    
+    /* section2  dessert part ****/
+    
+    .main-heading {
+        padding-left: 3px;
+    }
+
+    .main-heading2 {
+        left: 62%;
+    }
+    .dessert-para {
+        font-size: 1.35rem;
+        padding-left: 5px;
+        word-spacing: 5px;
+
+    }
+    .dessert-img {
+        max-width: 480px;
+    }
+
+    
+
+    /* section 3 ***/
+
+    .section3 {
+        padding: 6px;
+    }
+    .section3-img {
+        max-width: 300px;
+    }
+    
+    .booking-btn {
+        font-size: 1.4rem;
+    }
+
+    .booking-text {
+        font-size: 1.3rem;
+    }
+    .inputs {
+        font-size: 1.5rem;
+        border-radius: 10px;
+        margin: 0.5rem;
+        width: 98%;
+    
+    }
+
+    /* section 5 ****/
+
+    .section5-heading {
+
+        font-size: 1.5rem;
+
+    }
+
+    .section5-heading2{
+
+        font-size: 1.3rem;
+
+    }
+
+    .form-heading {
+        font-size: 1.45rem;
+    }
+
+    .booking-selection {
+        font-size: 1.4rem;
+    }
+    .submit1 {
+        font-size: 1.45rem;
+    }
+
+
+    /* section 6 ***/
+    .section6-heading1{
+        font-size:1.8rem ;
+
+    }
+    .section6-heading2 {
+        font-size: 1.4rem;
+
+    }
+
+
+    .section6-para {
+        width: 46%;
+        padding: 5px;
+        font-size: 1.4rem;
+        line-height: 2.7rem;
+    
+    }
+    .section6-span1 {
+        font-size: 1.3rem;
+    }
+    
+    .input7 {
+        padding: 7px;
+    
+    }
+    
+    .section6-form-heading {
+        font-size: 1.45rem;
+    }
+    .list-item {
+        width: 13%;
+        font-size: 1.15rem;
+    }
+    
+    .list-item7 {
+        font-size: 1.1rem;
+        padding: 3px;
+    
+    }
+    
+    li {
+        width: 12.9%;
+        padding: 3px;
+        font-size: 1.1rem;
+        
+    }
+    
+    
+    .delete-btn {
+        font-size: 1.1rem;
+    }
+
+
+    /* footer part ***/
+    
+    .footer-para {
+        font-size: 1.4rem;
+        word-spacing: 1.4rem;
+    }
+    
+    .link-item {
+        font-size: 1.4rem;
+    }
+    .links {
+        font-size: 1.1rem;
+}
+}
+
