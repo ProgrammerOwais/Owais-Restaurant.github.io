@@ -26,7 +26,7 @@ body {
     font-family: Racing Sans One;
     text-transform: uppercase;
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
     margin: 0 0.5rem;
 }
 
@@ -206,7 +206,7 @@ h2 {
 }
 .online-close-btn {
     background-color: transparent;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: bold;
     position: absolute;
     right: 3%;
@@ -222,7 +222,7 @@ h2 {
     position: relative;
     display: none;
     opacity: 0;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     flex-direction: column;
     border: 2px solid yellow;
@@ -754,7 +754,7 @@ li {
     }
 
     .online-form {
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         flex-direction: column;
         border: 2px solid rgba(255, 255, 255, 0.466);
@@ -973,7 +973,7 @@ li {
     }
 
     .online-form {
-        width: 50%;
+        width: 80%;
     }
     
      .online-form-heading , .online-selection , .online-form-input , .submit {
