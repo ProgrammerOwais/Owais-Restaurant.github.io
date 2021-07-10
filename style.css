@@ -175,8 +175,7 @@ img {
 /* header section ***/
 
 header {
-    /* background-image: linear-gradient(to right ,rgb(185, 171, 171),rgb(39, 33, 33),rgb(190, 179, 179)); */
-    background-image: linear-gradient(to right , rgb(182, 217, 245) 1%,rgb(69, 141, 235),rgb(177, 210, 236) 99%);
+    background-image: linear-gradient(#ff9d2f, #ff6126);
     padding-bottom: 5px;
     border-radius: 5px;
     margin-bottom: 0.5rem;
@@ -187,12 +186,14 @@ header {
 h1,h2 {
     text-align: center;
     color: white;
+    color: #890508;
+    text-transform: uppercase;
 }
 
 h2 {
     background-color: rgba(0, 0, 0, 0.466);
     width: 20%;
-    padding: 1px;
+    padding: 3px 0px;
     margin: 0.5rem auto;
     border-radius: 10px;
     cursor: pointer;
@@ -276,6 +277,7 @@ div {
     color: black;
     padding-left: 20px;
     margin-bottom: 0.5rem;
+    text-transform: capitalize;
 }
 
 .main-heading2 {
@@ -363,6 +365,7 @@ hr {
 
 .section4-heading , .main-heading {
     font-family: cursive, sans-serif;
+    text-transform: capitalize;
 }
 .section4-heading ,.section5-heading {
     color: black;
@@ -516,12 +519,15 @@ h3 {
 .section6 {
     background-color: rgb(44, 41, 41);
     border-radius: 5px;
+    margin-left: -0.3rem;
+    margin-right: -0.2rem;
 }
 
 .section6-heading1 {
     font-size: 1.5rem;
     margin-top: 1rem;
     color: white;
+    text-transform: capitalize;
 }
 
 .section6-heading2 {
@@ -529,6 +535,7 @@ h3 {
     color: greenyellow;
     background-color: transparent;
     text-align: left;
+    text-transform: capitalize;
     padding: 5px;
     margin: 0.1rem;
     margin-bottom: -10px;
@@ -670,6 +677,8 @@ li {
     background-color: rgb(44, 41, 41);
     margin-bottom: -2rem;
     padding-bottom: 1rem;
+    margin-left: -0.3rem;
+    margin-right: -0.2rem;
 }
 
 .footer-icons {
@@ -741,10 +750,9 @@ li {
 
     /* header part ***/
 
-    h1,h2 {
-      font-size: 1.1rem;
-    }
+   
     h1 {
+        font-size: 1.3rem;
         padding-top: 0.2rem;
     }
     h2 {
@@ -963,11 +971,11 @@ li {
 
     /* header part ***/
 
-    h1,h2 {
-      font-size: 1.15rem;
+    h1 {
+      font-size: 1.35rem;
     }
     h2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .online-form {
@@ -1176,8 +1184,11 @@ li {
 
     /* header part ***/
 
-    h1,h2 {
-      font-size: 1.2rem;
+    h1 {
+      font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.3rem;
     }
 
     .online-form {
@@ -1382,8 +1393,11 @@ li {
     }
     /* header part ***/
 
-    h1,h2 {
-      font-size: 1.4rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.4rem;
     }
     .online-form {
         width: 40%;
@@ -1560,8 +1574,12 @@ li {
 
     /* header part ***/
 
-    h1,h2 {
-      font-size: 1.6rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+        
     }
     
 .online-close-btn {
